@@ -1,15 +1,17 @@
-import React from 'react';
-import PrimaryHeader from './PrimaryHeader';
-import PrimarySub from './PrimarySub'
+import React from "react";
+import PrimaryHeader from "./PrimaryHeader";
+import PrimarySub from "./PrimarySub";
+import TechStack from "./TechStack";
 
 const About = () => {
-    return(
-        <div className='about'>
-            <PrimaryHeader />
-            <PrimarySub />
+  return (
+    <div className="about">
+      <PrimaryHeader />
+      <PrimarySub />
 
-        </div>
-    )
-}
+      <TechStack />
+    </div>
+  );
+};
 
 export default About;

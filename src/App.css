@@ -1,19 +1,27 @@
 html {
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.507);
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .App {
   text-align: center;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -196,6 +204,13 @@ body {
   background-color: #282c34;
   color: white;
   width: 100%;
+  /* position: fixed;
+  bottom: 0px; */
+}
+.footer footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .footer a {
@@ -204,9 +219,22 @@ body {
 
 #footer-sentence {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
+/* brand */
+.brand img {
+  width: 100vw;
+}
+
+.tech-stack img {
+  width: 50px;
+  padding: 10px;
+}
+
+/* .portfolio {
+  z-index: 1;
+} */
 /* #outer-container {
   height: 100%;
 } */

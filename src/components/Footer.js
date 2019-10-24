@@ -4,25 +4,25 @@ const Footer = () => {
   return (
     <div className="footer">
       <footer>
-        <p id="footer-sentence">
-          <div>©2019 Mohammed Wilkinson. All Rights Reserved</div>
-          <div>
+        <div>
+          <p>©2019 Mohammed Wilkinson. All Rights Reserved</p>
+        </div>
+        <div>
+          <p>
             <b>Email:</b> wilkinsonm302@gmail.com
-          </div>
-          <div>
-            <b>Mobile:</b> 07942250766
-          </div>
-          <div>
-            Icons made by{" "}
-            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
-              Freepik
-            </a>{" "}
-            from{" "}
-            <a href="https://www.flaticon.com/" title="Flaticon">
-              www.flaticon.com
-            </a>
-          </div>
-        </p>
+          </p>
+        </div>
+
+        {/* <div>
+          Icons made by{" "}
+          <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+            Freepik
+          </a>{" "}
+          from{" "}
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            www.flaticon.com
+          </a>
+        </div> */}
       </footer>
     </div>
   );
