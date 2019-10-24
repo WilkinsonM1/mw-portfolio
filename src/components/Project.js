@@ -1,6 +1,9 @@
 import React from 'react';
+import Technologies from './Technologies'
 
 const Project = (props) => {
+
+
     return(
         <div className="project flip-card">
             <div className='flip-card-inner'>
@@ -11,6 +14,7 @@ const Project = (props) => {
 
                     <div className='project-container flip-card-back'>
                         <h3>{props.title}</h3>
+                        
                         <p>{props.description}
                         </p>
                         <a href={props.link} className='project-site-link'>Click me to see website</a>
