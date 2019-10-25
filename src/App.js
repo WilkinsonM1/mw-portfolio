@@ -12,8 +12,6 @@ import About from "./components/About";
 import "./App.css";
 
 class App extends React.Component {
-
-
   render() {
     return (
       <BrowserRouter>
@@ -26,7 +24,6 @@ class App extends React.Component {
           <Route path="/mw-portfolio/portfolio" component={Portfolio} />
 
           <Contact />
-      
 
           <Footer />
         </div>

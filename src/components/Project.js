@@ -13,7 +13,7 @@ const Project = props => {
           <h3>{props.title}</h3>
           {/* <Technologies techs={props.techs} /> */}
           <p>{props.description}</p>
-          <a href={props.link} className="project-site-link">
+          <a href={props.link} className="project-site-link" target="_blank">
             Click me to see website
           </a>
         </div>
