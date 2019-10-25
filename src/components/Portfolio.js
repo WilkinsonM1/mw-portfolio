@@ -7,7 +7,12 @@ import drumKit from '../img/project-screenshots/drumkit-cat.png'
 import blackDice from '../img/project-screenshots/black-dice-game.png'
 import busAnimation from '../img/project-screenshots/london-bus-animation.png'
 
+
+
 const Portfolio = (props) => {
+    
+    
+
     return(
         <div className="portfolio">
             <Project 
@@ -17,6 +22,8 @@ const Portfolio = (props) => {
                 link="https://wilkinsonm1.github.io/netflixCopy/"
                 description="A visual non-functional copy of the Netflix website to develop my understanding of Flexbox in CSS.
                 This was made using HTML and multiple rows of images and organised using Flexbox. "
+             
+               
                 />
 
             <Project
