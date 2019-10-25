@@ -6,6 +6,12 @@ import keyCode from "../img/project-screenshots/keycode-generator.png";
 import drumKit from "../img/project-screenshots/drumkit-cat.png";
 import blackDice from "../img/project-screenshots/black-dice-game.png";
 import busAnimation from "../img/project-screenshots/london-bus-animation.png";
+import addressBook from "../img/project-screenshots/address-book-react.png";
+import expressNews from "../img/project-screenshots/express-news.png";
+import iosDiceGame from "../img/project-screenshots/ios-dice-game.png";
+import weatherRetriever from "../img/project-screenshots/weather-retriever.png";
+import reactCalculator from "../img/project-screenshots/simple-calculator-react.png";
+
 import { tech1 } from "../technologies";
 
 const Portfolio = props => {
@@ -60,31 +66,32 @@ const Portfolio = props => {
         link="https://wilkinsonm1.github.io/london-bus-animation/."
         description="This was a small css challenge to practice CSS animations. I made the clouds move to the left while slowly fading, the bus slightly bounces and the wheels turn. The actual html divs and colouring were provided by our instructor."
       />
-      {/*
-            <Project
-                source=""
-                alt=""
-                title=""
-                description=""
-            />
-            <Project
-                source=""
-                alt=""
-                title=""
-                description=""
-            />
-            <Project
-                source=""
-                alt=""
-                title=""
-                description=""
-            />
-            <Project
-                source=""
-                alt=""
-                title=""
-                description=""
-            /> */}
+
+      <Project
+        source={reactCalculator}
+        alt="react calculator"
+        title=""
+        description=""
+      />
+      <Project
+        source={addressBook}
+        alt="simple address book"
+        title=""
+        description=""
+      />
+      <Project
+        source={weatherRetriever}
+        alt="weather app"
+        title=""
+        description=""
+      />
+      <Project source={expressNews} alt="news app" title="" description="" />
+      <Project
+        source={iosDiceGame}
+        alt="dice game in ios"
+        title=""
+        description=""
+      />
     </div>
   );
 };
