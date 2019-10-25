@@ -24,6 +24,64 @@ const TechStack = () => {
         <img src={gitPic} />
       </div>
     </div>
+    // <div className="my-stack">
+    //   <div className="stack">
+    //     <div className="icon-container">
+    //       <i className="devicon-html5-plain-wordmark colored"></i>
+    //     </div>
+    //     <h1>HTML</h1>
+    //     <p>Using HTML to create lovely websites</p>
+    //   </div>
+    //   <div className="stack">
+    //     <div className="icon-container">
+    //       <i className="devicon-css3-plain-wordmark colored"></i>
+    //     </div>
+    //     <h1>CSS</h1>
+    //     <p>Using CSS to create lovely websites</p>
+    //   </div>
+    //   <div className="stack">
+    //     <div className="icon-container">
+    //       <i className="devicon-javascript-plain colored"></i>
+    //     </div>
+    //     <h1>JavaScript</h1>
+    //     <p>Using JavaScript to create lovely websites</p>
+    //   </div>
+    //   <div className="stack">
+    //     <div className="icon-container">
+    //       <i className="devicon-react-original-wordmark colored"></i>
+    //     </div>
+    //     <h1>React</h1>
+    //     <p>Using React to create lovely websites</p>
+    //   </div>
+    //   <div className="stack">
+    //     <div className="icon-container">
+    //       <i className="devicon-nodejs-plain colored"></i>
+    //     </div>
+    //     <h1>Node.js</h1>
+    //     <p>Using Node.js</p>
+    //   </div>
+    //   <div className="stack">
+    //     <div className="icon-container">
+    //       <i className="devicon-mongodb-plain-wordmark colored"></i>
+    //     </div>
+    //     <h1>Mongo</h1>
+    //     <p>Using Mongo</p>
+    //   </div>
+    //   <div className="stack">
+    //     <div className="icon-container">
+    //       <i className="devicon-express-original-wordmark colored"></i>
+    //     </div>
+    //     <h1>Express</h1>
+    //     <p>Using Express</p>
+    //   </div>
+    //   <div className="stack">
+    //     <div className="icon-container">
+    //       <i className="devicon-mysql-plain-wordmark colored"></i>
+    //     </div>
+    //     <h1>SQL</h1>
+    //     <p>Using SQL</p>
+    //   </div>
+    // </div>
   );
 };
 

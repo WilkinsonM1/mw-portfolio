@@ -1,3 +1,5 @@
-let tech1 = ['HTML', 'CSS', 'JS']
+export const tech1 = ["HTML", "CSS", "JS"];
 
-export default tech1;
+// module.exports = {
+//   tech1
+// };
