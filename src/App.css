@@ -1,15 +1,9 @@
-
-
 html {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.507);
   margin: 0;
   padding: 0;
-
- 
-  
-
 }
 
 body {
@@ -18,13 +12,20 @@ body {
   margin: 0;
   padding: 0;
 
- 
-  background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 .App {
   text-align: center;
@@ -61,7 +62,6 @@ background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ 
   padding: 20px;
   overflow: scroll;
   overflow-x: hidden;
- 
 }
 
 /* brand */
@@ -85,6 +85,7 @@ background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ 
 
 .nav-item {
   color: white;
+  padding: 10px;
 }
 
 /* contact */
@@ -216,6 +217,7 @@ background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ 
 /* portfolio */
 .portfolio {
   display: flex;
+
   flex-wrap: wrap;
   justify-content: space-evenly;
   overflow: scroll;
@@ -266,22 +268,36 @@ background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ 
   padding: 15px;
   width: 15vw;
   height: auto;
-
-
-
-  
- 
 }
 
-
 @media only screen and (max-width: 500px) {
-  
-
   /* profile pic */
   #profile-pic {
     padding: 15px;
     width: 40vw;
     height: auto;
+  }
+}
+.coding-journey {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* overflow: scroll;
+  overflow-x: hidden; */
+}
+
+.coding-journey img {
+  width: 50vw;
+}
+@media only screen and (max-width: 500px) {
+  .coding-journey {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .coding-journey img {
+    width: 40vw;
   }
 }
 /* .portfolio {
@@ -369,7 +385,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* ::-webkit-scrollbar-track {
   background: #f1f1f1; 
 } */
- 
+
 /* Handle */
 /* ::-webkit-scrollbar-thumb {
   background: #888; 

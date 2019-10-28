@@ -11,11 +11,13 @@ const Project = props => {
 
         <div className="project-container flip-card-back">
           <h3>{props.title}</h3>
-          {/* <Technologies techs={props.techs} /> */}
+          <p>{props.technologies}</p>
           <p>{props.description}</p>
-          <a href={props.link} className="project-site-link" target="_blank">
-            Click me to see website
-          </a>
+          {props.link ? (
+            <a href={props.link} className="project-site-link" target="_blank">
+              Click me to see website
+            </a>
+          ) : null}
         </div>
       </div>
     </div>

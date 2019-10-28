@@ -8,6 +8,7 @@ import Brand from "./components/Brand";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import CodingJourney from "./components/CodingJourney";
 
 import "./App.css";
 
@@ -22,6 +23,10 @@ class App extends React.Component {
 
           <Route exact path="/mw-portfolio/about" component={About} />
           <Route path="/mw-portfolio/portfolio" component={Portfolio} />
+          <Route
+            path="/mw-portfolio/coding-journey"
+            component={CodingJourney}
+          />
 
           <Contact />
 

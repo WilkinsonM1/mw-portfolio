@@ -14,6 +14,9 @@ const Navigation = props => {
         <Link to="/mw-portfolio/portfolio" className="nav-item">
           Portfolio
         </Link>
+        <Link to="/mw-portfolio/coding-journey" className="nav-item">
+          My Coding Journey
+        </Link>
       </div>
     </div>
   );
