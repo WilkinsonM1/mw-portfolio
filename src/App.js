@@ -21,7 +21,7 @@ class App extends React.Component {
 
           <Navigation />
 
-          <Route exact path="/mw-portfolio/about" component={About} />
+          <Route exact path="/mw-portfolio/" component={About} />
           <Route path="/mw-portfolio/portfolio" component={Portfolio} />
           <Route
             path="/mw-portfolio/coding-journey"
