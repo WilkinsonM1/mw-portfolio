@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/mw-portfolio/static/css/main.ea226a5f.chunk.css",
+    "main.js": "/mw-portfolio/static/js/main.b235c6e0.chunk.js",
+    "main.js.map": "/mw-portfolio/static/js/main.b235c6e0.chunk.js.map",
+    "runtime-main.js": "/mw-portfolio/static/js/runtime-main.bc063c39.js",
+    "runtime-main.js.map": "/mw-portfolio/static/js/runtime-main.bc063c39.js.map",
+    "static/js/2.7e7d5e84.chunk.js": "/mw-portfolio/static/js/2.7e7d5e84.chunk.js",
+    "static/js/2.7e7d5e84.chunk.js.map": "/mw-portfolio/static/js/2.7e7d5e84.chunk.js.map",
+    "index.html": "/mw-portfolio/index.html",
+    "precache-manifest.c5e780e59623da47e2fc5befdbd853f9.js": "/mw-portfolio/precache-manifest.c5e780e59623da47e2fc5befdbd853f9.js",
+    "service-worker.js": "/mw-portfolio/service-worker.js",
+    "static/css/main.ea226a5f.chunk.css.map": "/mw-portfolio/static/css/main.ea226a5f.chunk.css.map",
+    "static/media/Developer-CV.pdf": "/mw-portfolio/static/media/Developer-CV.461957f1.pdf",
+    "static/media/address-book-react.png": "/mw-portfolio/static/media/address-book-react.11b3e6f4.png",
+    "static/media/black-dice-game.png": "/mw-portfolio/static/media/black-dice-game.96d69d4e.png",
+    "static/media/brand3.png": "/mw-portfolio/static/media/brand3.e5635ab9.png",
+    "static/media/cyber-pet-game.png": "/mw-portfolio/static/media/cyber-pet-game.4458bf26.png",
+    "static/media/drumkit-cat.png": "/mw-portfolio/static/media/drumkit-cat.0e2c253b.png",
+    "static/media/express-news.png": "/mw-portfolio/static/media/express-news.e9fb3fe2.png",
+    "static/media/first-rpg-game.png": "/mw-portfolio/static/media/first-rpg-game.616a3d32.png",
+    "static/media/github.png": "/mw-portfolio/static/media/github.b6ec19ce.png",
+    "static/media/keycode-generator.png": "/mw-portfolio/static/media/keycode-generator.f0ebc33a.png",
+    "static/media/linkedin.png": "/mw-portfolio/static/media/linkedin.fd0d5546.png",
+    "static/media/london-bus-animation.png": "/mw-portfolio/static/media/london-bus-animation.b42824de.png",
+    "static/media/netflix-copy.png": "/mw-portfolio/static/media/netflix-copy.80fb2b18.png",
+    "static/media/profile-pic.jpg": "/mw-portfolio/static/media/profile-pic.63a4e04d.jpg",
+    "static/media/profile.png": "/mw-portfolio/static/media/profile.78bb4717.png",
+    "static/media/simple-calculator-react.png": "/mw-portfolio/static/media/simple-calculator-react.4d6897d7.png",
+    "static/media/simplyRota.png": "/mw-portfolio/static/media/simplyRota.01883d9f.png",
+    "static/media/swift-dice-game-app.png": "/mw-portfolio/static/media/swift-dice-game-app.20cd9331.png",
+    "static/media/weather-retriever.png": "/mw-portfolio/static/media/weather-retriever.2ad91491.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc063c39.js",
+    "static/js/2.7e7d5e84.chunk.js",
+    "static/css/main.ea226a5f.chunk.css",
+    "static/js/main.b235c6e0.chunk.js"
+  ]
+}
