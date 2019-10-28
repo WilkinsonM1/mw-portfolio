@@ -8,7 +8,7 @@ const Navigation = props => {
   return (
     <div className="navigation">
       <div className="links-container">
-        <Link to="/mw-portfolio/" className="nav-item">
+        <Link to="/mw-portfolio/about" className="nav-item">
           About
         </Link>
         <Link to="/mw-portfolio/portfolio" className="nav-item">
