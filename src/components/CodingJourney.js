@@ -11,7 +11,7 @@ const CodingJourney = () => {
         make my own RPG and I followed a youtube tutorial for it.{" "}
       </p>
 
-      <img src={firstRPG} alt="First RPG" />
+      {/* <img src={firstRPG} alt="First RPG" /> */}
 
       <p>
         I decided I wanted to try and make my own blog website without hosting
